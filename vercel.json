@@ -9,12 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/web_app.py"
+      "dest": "web_app.py"
     }
   ],
   "env": {
-    "PYTHONPATH": ".",
-    "STREAMLIT_SERVER_PORT": "8080",
-    "STREAMLIT_SERVER_ADDRESS": "0.0.0.0"
+    "PYTHONPATH": "."
   }
 }
